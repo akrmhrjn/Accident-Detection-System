@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+ 
+<RelativeLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+              
+      <ImageView
+          android:id="@+id/ImageView01"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_gravity="center"
+          android:src="@drawable/splash"
+          android:background="#9f0523"
+          android:scaleType="centerInside"
+          android:contentDescription="@string/logo">
+ 
+      </ImageView>
+
+      <TextView
+          android:id="@+id/textView1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentBottom="true"
+          android:layout_centerHorizontal="true"
+          android:layout_marginBottom="150dp"
+          android:textSize="16sp"
+          android:text="Developed By:" />
+      <TextView
+          android:id="@+id/textView2"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentBottom="true"
+          android:layout_centerHorizontal="true"
+          android:layout_marginBottom="130dp"
+          android:textSize="12sp"
+          android:text="Ankur Maharjan" />
+      <TextView
+          android:id="@+id/textView3"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentBottom="true"
+          android:layout_centerHorizontal="true"
+          android:layout_marginBottom="110dp"
+          android:textSize="12sp"
+          android:text="Bal Gopal Lal Shrestha" />
+      <TextView
+          android:id="@+id/textView4"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentBottom="true"
+          android:layout_centerHorizontal="true"
+          android:layout_marginBottom="90dp"
+          android:textSize="12sp"
+          android:text="Jasman Shakya" />
+      <TextView
+          android:id="@+id/textView5"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentBottom="true"
+          android:layout_centerHorizontal="true"
+          android:layout_marginBottom="70dp"
+          android:textSize="12sp"
+          android:text="Shradha Simkhada" />
+      
+      </RelativeLayout><!-- From: file:/home/akrmhrjn/AndroidStudioProjects/forest/aaswaas/app/src/main/res/layout/splash_screen.xml -->

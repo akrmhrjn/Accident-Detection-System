@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+					        android:id="@+id/scrollView1"
+					        android:layout_width="wrap_content"
+					        android:layout_height="wrap_content"
+					        android:layout_centerVertical="true">
+		<RelativeLayout 
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:orientation="vertical" >
+		
+		    <TextView
+		        android:id="@+id/txtmsg1"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="10dp"
+		        android:layout_marginTop="15dp"
+		        android:text="@string/msg1"
+		        android:textColor="#179DBB"
+		        android:textSize="15sp" />
+		
+		    <View
+		        android:id="@+id/view1"
+		        android:layout_width="wrap_content"
+		        android:layout_height="1dp"
+		        android:layout_marginLeft="10dp"
+		        android:layout_marginRight="10dp"
+		        android:layout_marginTop="34dp"
+		        android:background="#179DBB" />
+		
+		    <TextView
+		        android:id="@+id/txtmsg2"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="10dp"
+		        android:layout_marginTop="140dp"
+		        android:text="@string/msg2"
+		        android:textColor="#179DBB"
+		        android:textSize="15sp" />
+		
+		    <View
+		        android:id="@+id/view2"
+		        android:layout_width="wrap_content"
+		        android:layout_height="1dp"
+		        android:layout_marginLeft="10dp"
+		        android:layout_marginRight="10dp"
+		        android:layout_marginTop="159dp"
+		        android:background="#179DBB" />
+		
+		    <EditText
+		        android:id="@+id/editText2"
+		        android:layout_width="300dp"
+		        android:layout_height="80dp"
+		        android:layout_marginTop="174dp"
+		        android:layout_marginLeft="10dp"
+		        android:ems="10"
+		        android:textSize="12sp"
+		        android:padding="10dp"
+		        android:background="@drawable/style_editbox"
+		        android:inputType="textMultiLine"
+		        android:hint="@string/descmsg2" />
+		
+		    <EditText
+		        android:id="@+id/editText1"
+		        android:layout_width="300dp"
+		        android:layout_height="80dp"
+		        android:layout_marginTop="49dp"
+		        android:layout_marginLeft="10dp"
+		        android:ems="10"
+		        android:textSize="12sp"
+		        android:padding="10dp"
+		        android:background="@drawable/style_editbox"
+		        android:inputType="textMultiLine" 
+		        android:hint="@string/descmsg1"/>
+		
+		      	<Button
+		      	    android:id="@+id/btnsave"
+		      	    android:layout_width="fill_parent"
+		      	    android:layout_height="wrap_content"
+		      	    android:layout_alignParentRight="true"
+		      	    android:layout_below="@+id/editText2"
+		      	    android:layout_marginTop="20dp"
+		      	    android:layout_marginLeft="10dp"
+		      	    android:layout_marginRight="10dp"
+		      	    android:background="@drawable/rounded_button"
+		      	    android:text="@string/Save"
+		      	    android:textColor="#fff"
+		      	    android:textSize="15sp" />
+		
+		</RelativeLayout>
+</ScrollView>

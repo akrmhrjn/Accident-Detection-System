@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:padding="5dp"
+    >
+
+    <TextView
+        android:id="@+id/txtname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:text="Name" />
+
+    <TextView
+        android:id="@+id/txtaddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address" 
+        android:textColor="#000"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:id="@+id/txtblood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Blood"
+        android:textColor="#000"
+        android:layout_marginLeft="180dp" />
+
+    <TextView
+        android:id="@+id/txtphone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone"
+        android:textColor="#000"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="180dp" />
+
+</RelativeLayout>
+<!-- From: file:/home/akrmhrjn/AndroidStudioProjects/forest/aaswaas/app/src/main/res/layout/blood_row.xml -->

@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:textSize="18sp"
+        android:gravity="center_horizontal"
+        android:text="@string/title"
+        android:textColor="#c00025" />
+        
+    <EditText
+        android:id="@+id/txtnum"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:padding="5dp"
+        android:textSize="12sp"
+        android:ems="10"
+        android:hint="@string/num"
+        android:background="@drawable/style_editbox" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/txtpass"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="170dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="12sp"
+        android:ems="10"
+        android:padding="5dp"
+        android:inputType="textPassword"
+        android:hint="@string/pass"
+        android:background="@drawable/style_editbox" />
+
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="220dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#fff"
+        android:text="@string/login"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/rounded_button" />
+
+    <TextView
+        android:id="@+id/txtregister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="280dp"
+        android:text="@string/register"
+        android:clickable="true" />
+
+</RelativeLayout>
